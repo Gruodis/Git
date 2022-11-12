@@ -28,28 +28,32 @@
 
 <hr/>
 
-```
-# create a new directory, and initialize it with git-specific functions
-git init my-repo
+## Example: Start a new repository and publish it to GitHub
 
-# change into the `my-repo` directory
-cd my-repo
+- ```
+  # create a new directory, and initialize it with git-specific functions
+  git init my-repo
 
-# create the first file in the project
-touch README.md
+  # change into the `my-repo` directory
+  cd my-repo
 
-# git isn't aware of the file, stage it
-git add README.md
+  # create the first file in the project
+  touch README.md
 
-# take a snapshot of the staging area
-git commit -m "add README to initial commit"
+  # git isn't aware of the file, stage it
+  git add README.md
 
-# provide the path for the repository you created on github
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+  # take a snapshot of the staging area
+  git commit -m "add README to initial commit"
 
-# push changes to github
-git push --set-upstream origin main
-```
+  # provide the path for the repository you created on github
+  git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+
+  # push changes to github
+  git push --set-upstream origin main
+  ```
+
+<hr/>
 
 -  Commit local project to github repo:
 
