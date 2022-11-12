@@ -1,6 +1,7 @@
 <p align="center"><img width="150" alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://git-scm.com/images/logos/downloads/Git-Logo-White.svg"></p>
 
 <h1 align="center">Git 101</h1>
+[Git & GitHub Must Know:] (https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
 
 ## Git:
   - [Basics](#here-are-some-common-commands-for-using-git)
