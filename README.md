@@ -6,6 +6,7 @@
 
 ## Git:
 
+
 ### Here are some common commands for using Git:
 
 -  ``git init`` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
@@ -28,7 +29,7 @@
 
 <hr/>
 
-## Example: Start a new repository and publish it to GitHub
+### Example: Start a new repository and publish it to GitHub
 
 - ```
   # create a new directory, and initialize it with git-specific functions
