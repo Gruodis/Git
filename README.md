@@ -5,7 +5,13 @@
  </h1>
 
 ## Git:
-
+  - [Basics](#here-are-some-common-commands-for-using-git)
+  - [Example: Start new repo and publish to GitHub](#example-start-a-new-repository-and-publish-it-to-github)
+    - [Configure MySQL](#wrench-configuring-mysql)
+    - [Final Steps MySQL](#computer-mysql-setup-final-step-securing-mysql)
+  - [If Composer & MySQL Installed](#computer-if-composer--mysql-installed)
+  - [Start Project](#computer-start-existing-project)
+  - [If something fails](#bangbang-if-project-doesnt-start-properly-try)
 
 ### Here are some common commands for using Git:
 
@@ -55,6 +61,33 @@
   ```
 
 <hr/>
+
+### Example: Contribute to an existing repository
+- ```bash
+  # download a repository on GitHub to our machine
+  # Replace `owner/repo` with the owner and name of the repository to clone
+  git clone https://github.com/owner/repo.git
+
+  # change into the `repo` directory
+  cd repo
+
+  # create a new branch to store any new changes
+  git branch my-branch
+
+  # switch to that branch (line of development)
+  git checkout my-branch
+
+  # make changes, for example, edit `file1.md` and `file2.md` using the text editor
+
+  # stage the changed files
+  git add file1.md file2.md
+
+  # take a snapshot of the staging area (anything that's been added)
+  git commit -m "my snapshot"
+
+  # push changes to github
+  git push --set-upstream origin my-branch
+  ```
 
 -  Commit local project to github repo:
 
