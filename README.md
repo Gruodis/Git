@@ -8,11 +8,11 @@
   - [Basics](#here-are-some-common-commands-for-using-git)
   - [Example: Start new repo and publish to GitHub](#example-start-a-new-repository-and-publish-it-to-github)
   - [Example: Contribute to an existing repo](#example-contribute-to-an-existing-repository)
-    - [Final Steps MySQL](#computer-mysql-setup-final-step-securing-mysql)
-  - [If Composer & MySQL Installed](#computer-if-composer--mysql-installed)
+  - [Example: contribute to an existing branch on GitHub](#example-contribute-to-an-existing-branch-on-github)
+<!--   - [If Composer & MySQL Installed](#computer-if-composer--mysql-installed)
   - [Start Project](#computer-start-existing-project)
   - [If something fails](#bangbang-if-project-doesnt-start-properly-try)
-
+ -->
 ### Here are some common commands for using Git:
 
 -  ``git init`` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
