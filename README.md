@@ -7,7 +7,7 @@
 ## Git:
   - [Basics](#here-are-some-common-commands-for-using-git)
   - [Example: Start new repo and publish to GitHub](#example-start-a-new-repository-and-publish-it-to-github)
-    - [Configure MySQL](#wrench-configuring-mysql)
+  - [Example: Contribute to an existing repo](#example-contribute-to-an-existing-repository)
     - [Final Steps MySQL](#computer-mysql-setup-final-step-securing-mysql)
   - [If Composer & MySQL Installed](#computer-if-composer--mysql-installed)
   - [Start Project](#computer-start-existing-project)
@@ -89,7 +89,36 @@
   git push --set-upstream origin my-branch
   ```
 
--  Commit local project to github repo:
+<hr/>
+
+### Example: contribute to an existing branch on GitHub
+This example assumes that you already have a project called repo on the machine and that a new branch has been pushed to GitHub since the last time changes were made locally.
+
+```bash
+# change into the `repo` directory
+cd repo
+
+# update all remote tracking branches, and the currently checked out branch
+git pull
+
+# change into the existing branch called `feature-a`
+git checkout feature-a
+
+# make changes, for example, edit `file1.md` using the text editor
+
+# stage the changed file
+git add file1.md
+
+# take a snapshot of the staging area
+git commit -m "edit file1"
+
+# push changes to github
+git push
+```
+
+<hr/>
+
+### Commit local project to github repo:
 
    - ```bash
      git init git add .    (add all files to stage for later commit)git commit -m "Message to describe commit."
