@@ -2,7 +2,7 @@
 
 <h1 align="center">Git 101</h1>
 
-Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c){:target="_blank" rel="noopener"}
+Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
 
 ## Git:
   - [Basics](#here-are-some-common-commands-for-using-git)
