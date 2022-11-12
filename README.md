@@ -5,22 +5,8 @@
  </h1>
 
 ## Git:
--  Commit local project to github repo:
 
-   - ```bash
-     git initgit add .    (add all files to stage for later commit)git commit -m "Message to describe commit."
-     ```
--  pull request update project - patikriname ar nėra branch'e pasikeitimų
--  jeigu commit metu failas neisikelia i serveri ir raudonuoja, reikia Git -> Add (įkeliam failą į stage).
-
--  Merge your branch into **develop** (No Pull request needed)
--  Create Pull request into **master** branch
--  **TEST your feature in staging server**
-
-
-<hr/>
-
-## Here are some common commands for using Git:
+### Here are some common commands for using Git:
 
 -  ``git init`` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
 
@@ -39,3 +25,21 @@
 -  ``git pull`` updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
 
 -  ``git push`` updates the remote repository with any commits made locally to a branch.
+
+<hr/>
+
+
+-  Commit local project to github repo:
+
+   - ```bash
+     git initgit add .    (add all files to stage for later commit)git commit -m "Message to describe commit."
+     ```
+-  pull request update project - patikriname ar nėra branch'e pasikeitimų
+-  jeigu commit metu failas neisikelia i serveri ir raudonuoja, reikia Git -> Add (įkeliam failą į stage).
+
+-  Merge your branch into **develop** (No Pull request needed)
+-  Create Pull request into **master** branch
+-  **TEST your feature in staging server**
+
+
+<hr/>
