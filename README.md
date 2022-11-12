@@ -11,10 +11,12 @@
   - [Start Project](#computer-start-existing-project)
   - [If something fails](#bangbang-if-project-doesnt-start-properly-try)
  -->
+ 
 <hr/>
 <br />
 <br />
 <br />
+
 ### Here are some common commands for using Git:
 
 -  ``git init`` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
@@ -39,6 +41,7 @@
 <br />
 <br />
 <br />
+
 ### Example: Start a new repository and publish it to GitHub
 
 - ```
@@ -68,6 +71,7 @@
 <br />
 <br />
 <br />
+
 ### Example: Contribute to an existing repository
 - ```bash
   # download a repository on GitHub to our machine
@@ -99,6 +103,7 @@
 <br />
 <br />
 <br />
+
 ### Example: contribute to an existing branch on GitHub
 This example assumes that you already have a project called repo on the machine and that a new branch has been pushed to GitHub since the last time changes were made locally.
 
@@ -128,6 +133,7 @@ git push
 <br />
 <br />
 <br />
+
 ### Commit local project to github repo:
 
    - ```bash
