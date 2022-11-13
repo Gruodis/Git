@@ -21,11 +21,11 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
 
 ### Here are some common commands for using Git:
 
--  ``git init`` initializes a brand new Git repository and begins tracking an existing directory. It adds a hidden subfolder within the existing directory that houses the internal data structure required for version control.
+-  ``git init`` initializes a brand new Git repository and begins tracking an existing directory.
 
--  ``git clone`` creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.
+-  ``git clone`` creates a local copy of a project that already exists remotely.
 
--  ``git add`` stages a change. Git tracks changes to a developer's codebase, but it's necessary to stage and take a snapshot of the changes to include them in the project's history. This command performs staging, the first part of that two-step process. Any changes that are staged will become a part of the next snapshot and a part of the project's history. Staging and committing separately gives developers complete control over the history of their project without changing how they code and work.
+-  ``git add`` stages a change. This command performs staging, the first part of that two-step process.
 
 -  ``git commit`` saves the snapshot to the project history and completes the change-tracking process. In short, a commit functions like taking a photo. Anything that's been staged with ``git add`` will become a part of the snapshot with ``git commit``.
 
@@ -33,9 +33,9 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
 
 -  ``git branch`` shows the branches being worked on locally.
 
--  ``git merge`` merges lines of development together. This command is typically used to combine changes made on two distinct branches. For example, a developer would merge when they want to combine changes from a feature branch into the main branch for deployment.
+-  ``git merge`` merges lines of development together. This command is typically used to combine changes made on two distinct branches.
 
--  ``git pull`` updates the local line of development with updates from its remote counterpart. Developers use this command if a teammate has made commits to a branch on a remote, and they would like to reflect those changes in their local environment.
+-  ``git pull`` updates the local line of development with updates from its remote counterpart.
 
 -  ``git push`` updates the remote repository with any commits made locally to a branch.
 
@@ -48,25 +48,40 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
 
 - ```
   # create a new directory, and initialize it with git-specific functions
+  ```bash
   git init my-repo
+  ```
 
   # change into the `my-repo` directory
+  ```bash
   cd my-repo
+  ```
 
   # create the first file in the project
+  ```bash
   touch README.md
+  ```
 
   # git isn't aware of the file, stage it
+  ```bash
   git add README.md
+  ```
 
   # take a snapshot of the staging area
+  ```bash
   git commit -m "add README to initial commit"
+  ```
 
   # provide the path for the repository you created on github
+  ```bash
   git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+  ```
 
   # push changes to github
+  ```bash
   git push --set-upstream origin main
+  ```
+
   ```
 
 <hr/>
