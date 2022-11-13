@@ -37,9 +37,9 @@ Git & GitHub Must Know [#link 1](https://dev.to/juni/git-and-github---must-know-
 -  ``git branch`` shows the branches being worked on locally.
 
     -  ``git branch -a`` list all branches.
-    -  ``git checkout -b branch-name`` Create a branch and checkout in one command.
     -  ``git branch -m example-branch`` rename the current branch to example-branch.
     -  ``git branch -d example-branch`` delete example-branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
+    -  ``git checkout -b branch-name`` Create a branch and checkout in one command.
 
 -  ``git merge`` merges lines of development together. This command is typically used to combine changes made on two distinct branches.
 
