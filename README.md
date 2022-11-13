@@ -47,40 +47,40 @@ Git & GitHub Must Know [#link 1](https://dev.to/juni/git-and-github---must-know-
 
 ### Example: Start a new repository and publish it to GitHub
 
-    create a new directory, and initialize it with git-specific functions
-    ```bash
-    git init my-repo
-    ```
+  create a new directory, and initialize it with git-specific functions
+  ```bash
+  git init my-repo
+  ```
 
-    change into the `my-repo` directory
-    ```bash
-    cd my-repo
-    ```
+  change into the `my-repo` directory
+  ```bash
+  cd my-repo
+  ```
 
-    create the first file in the project
-    ```bash
-    touch README.md
-    ```
+  create the first file in the project
+  ```bash
+  touch README.md
+  ```
 
-    git isn't aware of the file, stage it
-    ```bash
-    git add README.md
-    ```
+  git isn't aware of the file, stage it
+  ```bash
+  git add README.md
+  ```
 
-    take a snapshot of the staging area
-    ```bash
-    git commit -m "add README to initial commit"
-    ```
+  take a snapshot of the staging area
+  ```bash
+  git commit -m "add README to initial commit"
+  ```
 
-    provide the path for the repository you created on github
-    ```bash
-    git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
-    ```
+  provide the path for the repository you created on github
+  ```bash
+  git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+  ```
 
-    push changes to github
-    ```bash
-    git push --set-upstream origin main
-    ```
+  push changes to github
+  ```bash
+  git push --set-upstream origin main
+  ```
     
 <br />
 <hr/>
