@@ -2,7 +2,8 @@
 
 <h1 align="center">Git 101</h1>
 
-Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
+Git & GitHub Must Know [#link 1](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
+[#link 2](https://learn.microsoft.com/en-us/training/modules/intro-to-git/2-exercise-configure-git)
 
 ## Git:
   - [Basics](#here-are-some-common-commands-for-using-git)
@@ -46,7 +47,7 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
 
 ### Example: Start a new repository and publish it to GitHub
 
--   create a new directory, and initialize it with git-specific functions
+    create a new directory, and initialize it with git-specific functions
     ```bash
     git init my-repo
     ```
@@ -80,15 +81,15 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
     ```bash
     git push --set-upstream origin main
     ```
-
-<hr/>
+    
 <br />
+<hr/>
 <br />
 <br />
 
 ### Example: Contribute to an existing repository
 
-- ```bash
+  ```bash
   # download a repository on GitHub to our machine
   # Replace `owner/repo` with the owner and name of the repository to clone
   git clone https://github.com/owner/repo.git
@@ -113,9 +114,9 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
   # push changes to github
   git push --set-upstream origin my-branch
   ```
-
-<hr/>
+  
 <br />
+<hr/>
 <br />
 <br />
 
@@ -144,8 +145,8 @@ git commit -m "edit file1"
 git push
 ```
 
-<hr/>
 <br />
+<hr/>
 <br />
 <br />
 
