@@ -46,37 +46,37 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
 
 ### Example: Start a new repository and publish it to GitHub
 
--   # create a new directory, and initialize it with git-specific functions
+-   - create a new directory, and initialize it with git-specific functions
     ```bash
     git init my-repo
     ```
 
-    # change into the `my-repo` directory
+    - change into the `my-repo` directory
     ```bash
     cd my-repo
     ```
 
-    # create the first file in the project
+    - create the first file in the project
     ```bash
     touch README.md
     ```
 
-    # git isn't aware of the file, stage it
+    - git isn't aware of the file, stage it
     ```bash
     git add README.md
     ```
 
-    # take a snapshot of the staging area
+    - take a snapshot of the staging area
     ```bash
     git commit -m "add README to initial commit"
     ```
 
-    # provide the path for the repository you created on github
+    - provide the path for the repository you created on github
     ```bash
     git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
     ```
 
-    # push changes to github
+    - push changes to github
     ```bash
     git push --set-upstream origin main
     ```
@@ -87,6 +87,7 @@ Git & GitHub [Must Know](https://dev.to/juni/git-and-github---must-know-commands
 <br />
 
 ### Example: Contribute to an existing repository
+
 - ```bash
   # download a repository on GitHub to our machine
   # Replace `owner/repo` with the owner and name of the repository to clone
