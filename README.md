@@ -9,16 +9,18 @@ Git & GitHub Must Know [#link 1](https://dev.to/juni/git-and-github---must-know-
   - [Basics](#here-are-some-common-commands-for-using-git)
   - [Example: Start new repo and publish to GitHub](#example-start-a-new-repository-and-publish-it-to-github)
   - [Example: Contribute to an existing repo](#example-contribute-to-an-existing-repository)
-  - [Example: contribute to an existing branch on GitHub](#example-contribute-to-an-existing-branch-on-github)
+  - [Example: Contribute to an existing branch on GitHub](#example-contribute-to-an-existing-branch-on-github)
+  - [Example: Connect a local repository with a remote repository](#connect-local-repo-with-remote)
 <!--   - [If Composer & MySQL Installed](#computer-if-composer--mysql-installed)
   - [Start Project](#computer-start-existing-project)
   - [If something fails](#bangbang-if-project-doesnt-start-properly-try)
  -->
  
+<br />
 <hr/>
 <br />
 <br />
-<br />
+
 
 ### Here are some common commands for using Git:
 
@@ -162,5 +164,23 @@ git push
 -  Create Pull request into **master** branch
 -  **TEST your feature in staging server**
 
-
+<br />
 <hr/>
+<br />
+<br />
+
+### Connect local repo with remote
+
+```bash
+git remote add origin <remote_repo_URL>
+git push --all origin
+```
+
+If you want to set all of your branches to automatically use this remote repository, then use ``git pull`` , add ``--set-upstream`` to the push:
+```bash
+git push --all --set-upstream origin
+```
+<br />
+<hr/>
+<br />
+<br />
