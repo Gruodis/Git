@@ -36,11 +36,17 @@ Git & GitHub Must Know [#link 1](https://dev.to/juni/git-and-github---must-know-
 
 -  ``git branch`` shows the branches being worked on locally.
 
+    -  ``git branch -a`` list all branches.
+    -  ``git branch -m example-branch`` rename the current branch to example-branch.
+    -  ``git branch -d example-branch`` delete example-branch. This is a “safe” operation in that Git prevents you from deleting the branch if it has unmerged changes.
+
 -  ``git merge`` merges lines of development together. This command is typically used to combine changes made on two distinct branches.
 
 -  ``git pull`` updates the local line of development with updates from its remote counterpart.
 
 -  ``git push`` updates the remote repository with any commits made locally to a branch.
+
+-  ``git checkout branch-name``  switch to a branch.
 
 <hr/>
 <br />
@@ -81,7 +87,7 @@ Git & GitHub Must Know [#link 1](https://dev.to/juni/git-and-github---must-know-
 
   push changes to github
   ```bash
-  git push --set-upstream origin main
+  git push --set-upstream origin main(master)
   ```
     
 <br />
@@ -173,12 +179,12 @@ git push
 
 ```bash
 git remote add origin <remote_repo_URL>
-git push --all origin main
+git push --all origin main(master)
 ```
 
 If you want to set all of your branches to automatically use this remote repository, then use ``git pull`` , add ``--set-upstream`` to the push:
 ```bash
-git push --all --set-upstream origin main
+git push --all --set-upstream origin main(master)
 ```
 <br />
 <hr/>
