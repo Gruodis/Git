@@ -173,12 +173,12 @@ git push
 
 ```bash
 git remote add origin <remote_repo_URL>
-git push --all origin
+git push --all origin main
 ```
 
 If you want to set all of your branches to automatically use this remote repository, then use ``git pull`` , add ``--set-upstream`` to the push:
 ```bash
-git push --all --set-upstream origin
+git push --all --set-upstream origin main
 ```
 <br />
 <hr/>
