@@ -2,7 +2,7 @@
 
 <h1 align="center">Git 101</h1>
 
-Git & GitHub Must Know [#link 1](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
+Git & GitHub Must Know [101](https://www.atlassian.com/git/tutorials/setting-up-a-repository) [#link 1](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
 [#link 2](https://learn.microsoft.com/en-us/training/modules/intro-to-git/2-exercise-configure-git)
 
 ## Git:
