@@ -11,6 +11,7 @@ Git & GitHub Must Know [101](https://www.atlassian.com/git/tutorials/setting-up-
   - [Example: Contribute to an existing repo](#example-contribute-to-an-existing-repository)
   - [Example: Contribute to an existing branch on GitHub](#example-contribute-to-an-existing-branch-on-github)
   - [Example: Connect a local repository with a remote repository](#connect-local-repo-with-remote)
+  - [To check merged branches](#to-check-if-all-branches-merged-in-to-main)
 <!--   - [If Composer & MySQL Installed](#computer-if-composer--mysql-installed)
   - [Start Project](#computer-start-existing-project)
   - [If something fails](#bangbang-if-project-doesnt-start-properly-try)
@@ -191,3 +192,13 @@ git push --all --set-upstream origin main(master)
 <hr/>
 <br />
 <br />
+
+### To check if all branches merged in to main
+
+- Click on "branches"
+
+<br />
+<br />
+
+![image](https://github.com/Gruodis/Git/assets/43164261/de348efc-68b5-41df-b1f4-9bf9b16f2911)
+
